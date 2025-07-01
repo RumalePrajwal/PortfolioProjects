@@ -687,3 +687,218 @@ result = {'type': 'string', 'value': f'I would recommend using {recommended_tyre
 2025-07-01 11:33:49 [INFO] Answer: {'type': 'string', 'value': 'I would recommend using Soft tyre based on historical session data at Silverstone.'}
 2025-07-01 11:33:49 [INFO] Executed in: 3.3094098567962646s
 2025-07-01 11:33:49 [INFO] Executing Step 6: ResultParsing
+2025-07-01 12:17:35 [INFO] Question: Who was the fastest rider at India ?
+2025-07-01 12:17:35 [INFO] Running PandasAI with openai LLM...
+2025-07-01 12:17:35 [INFO] Prompt ID: 44044076-4873-446a-86b8-180d4687d74f
+2025-07-01 12:17:35 [INFO] Executing Step 0: CacheLookup
+2025-07-01 12:17:35 [INFO] Executing Step 1: PromptGeneration
+2025-07-01 12:17:35 [INFO] Using prompt: <dataframe>
+dfs[0]:34320x18
+year,race_id,track,session,rider,team,constructor,lap,lap_time_sec,position,weather,tyre,pit_stop,incident,avg_speed_kph,sector1,sector2,sector3
+2024,Qatar,Qatar,FP1,Francesco Bagnaia,Ducati Lenovo Team,Ducati,2,95.264,1,Dry,Hard,0,Long Lap Penalty,177.9,31.514,32.343,31.491
+2024,Qatar,Qatar,FP1,Francesco Bagnaia,Ducati Lenovo Team,Ducati,1,95.441,1,Dry,Soft,0,,169.31,31.56,32.602,31.472
+2024,Qatar,Qatar,FP1,Francesco Bagnaia,Ducati Lenovo Team,Ducati,3,95.237,1,Dry,Soft,0,,167.67,31.452,32.189,31.256
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+```
+
+Q: Who was the fastest rider at India ?
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+
+
+Generate python code and return full updated code:
+2025-07-01 12:17:35 [INFO] Executing Step 2: CodeGenerator
+2025-07-01 12:17:35 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-07-01 12:17:35 [ERROR] Pipeline failed on step 2: Error code: 401 - {'error': {'message': 'Incorrect API key provided: your_ope********here. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-07-01 12:18:50 [INFO] Question: Who was the fastest rider at India?
+2025-07-01 12:18:50 [INFO] Running PandasAI with openai LLM...
+2025-07-01 12:18:50 [INFO] Prompt ID: bbac61e7-4070-476f-91d6-885b136753fc
+2025-07-01 12:18:50 [INFO] Executing Step 0: CacheLookup
+2025-07-01 12:18:50 [INFO] Executing Step 1: PromptGeneration
+2025-07-01 12:18:50 [INFO] Using prompt: <dataframe>
+dfs[0]:34320x18
+year,race_id,track,session,rider,team,constructor,lap,lap_time_sec,position,weather,tyre,pit_stop,incident,avg_speed_kph,sector1,sector2,sector3
+2024,Qatar,Qatar,FP1,Francesco Bagnaia,Ducati Lenovo Team,Ducati,2,95.264,1,Dry,Hard,0,Long Lap Penalty,177.9,31.514,32.343,31.491
+2024,Qatar,Qatar,FP1,Francesco Bagnaia,Ducati Lenovo Team,Ducati,1,95.441,1,Dry,Soft,0,,169.31,31.56,32.602,31.472
+2024,Qatar,Qatar,FP1,Francesco Bagnaia,Ducati Lenovo Team,Ducati,3,95.237,1,Dry,Soft,0,,167.67,31.452,32.189,31.256
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+```
+
+Q: Who was the fastest rider at India?
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+
+
+Generate python code and return full updated code:
+2025-07-01 12:18:50 [INFO] Executing Step 2: CodeGenerator
+2025-07-01 12:18:50 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-07-01 12:18:50 [ERROR] Pipeline failed on step 2: Error code: 401 - {'error': {'message': 'Incorrect API key provided: your_ope********here. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-07-01 12:21:09 [INFO] Question: Who was the fastest rider in India?
+2025-07-01 12:21:09 [INFO] Running PandasAI with openai LLM...
+2025-07-01 12:21:09 [INFO] Prompt ID: 3e01daff-1047-43d0-bcf0-5d79d647708a
+2025-07-01 12:21:09 [INFO] Executing Step 0: CacheLookup
+2025-07-01 12:21:09 [INFO] Executing Step 1: PromptGeneration
+2025-07-01 12:21:09 [INFO] Using prompt: <dataframe>
+dfs[0]:34320x18
+year,race_id,track,session,rider,team,constructor,lap,lap_time_sec,position,weather,tyre,pit_stop,incident,avg_speed_kph,sector1,sector2,sector3
+2024,Qatar,Qatar,FP1,Francesco Bagnaia,Ducati Lenovo Team,Ducati,2,95.264,1,Dry,Hard,0,Long Lap Penalty,177.9,31.514,32.343,31.491
+2024,Qatar,Qatar,FP1,Francesco Bagnaia,Ducati Lenovo Team,Ducati,1,95.441,1,Dry,Soft,0,,169.31,31.56,32.602,31.472
+2024,Qatar,Qatar,FP1,Francesco Bagnaia,Ducati Lenovo Team,Ducati,3,95.237,1,Dry,Soft,0,,167.67,31.452,32.189,31.256
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+```
+
+Q: Who was the fastest rider in India?
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+
+
+Generate python code and return full updated code:
+2025-07-01 12:21:09 [INFO] Executing Step 2: CodeGenerator
+2025-07-01 12:21:13 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-01 12:21:13 [INFO] Code generated:
+            ```
+            # TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+fastest_rider_india = None
+for df in dfs:
+    if "track" in df.columns and "lap_time_sec" in df.columns:
+        india_data = df[df["track"] == "India"]
+        if not india_data.empty:
+            fastest_rider_india = india_data.loc[india_data["lap_time_sec"].idxmin()]["rider"]
+            break
+
+result = {"type": "string", "value": f"The fastest rider in India was {fastest_rider_india}."}
+            ```
+            
+2025-07-01 12:21:13 [INFO] Executing Step 3: CachePopulation
+2025-07-01 12:21:13 [INFO] Executing Step 4: CodeExecution
+2025-07-01 12:21:13 [INFO] Saving charts to C:\Users\prajw\PortfolioProjects\motogp_AI_strategist\exports\charts\temp_chart.png
+2025-07-01 12:21:13 [INFO] 
+Code running:
+```
+fastest_rider_india = None
+for df in dfs:
+    if 'track' in df.columns and 'lap_time_sec' in df.columns:
+        india_data = df[df['track'] == 'India']
+        if not india_data.empty:
+            fastest_rider_india = india_data.loc[india_data['lap_time_sec'].idxmin()]['rider']
+            break
+result = {'type': 'string', 'value': f'The fastest rider in India was {fastest_rider_india}.'}
+        ```
+2025-07-01 12:21:13 [INFO] Executing Step 5: ResultValidation
+2025-07-01 12:21:13 [INFO] Answer: {'type': 'string', 'value': 'The fastest rider in India was Raul Fernandez.'}
+2025-07-01 12:21:13 [INFO] Executed in: 3.757521629333496s
+2025-07-01 12:21:13 [INFO] Executing Step 6: ResultParsing
+2025-07-01 12:23:12 [INFO] Question: Which tyre compound is the best for Le Mans circuit?
+2025-07-01 12:23:12 [INFO] Running PandasAI with openai LLM...
+2025-07-01 12:23:12 [INFO] Prompt ID: 323aa999-bb53-40ab-ad96-cff23d721276
+2025-07-01 12:23:12 [INFO] Executing Step 0: CacheLookup
+2025-07-01 12:23:12 [INFO] Executing Step 1: PromptGeneration
+2025-07-01 12:23:12 [INFO] Using prompt: <dataframe>
+dfs[0]:34320x18
+year,race_id,track,session,rider,team,constructor,lap,lap_time_sec,position,weather,tyre,pit_stop,incident,avg_speed_kph,sector1,sector2,sector3
+2024,Qatar,Qatar,FP1,Francesco Bagnaia,Ducati Lenovo Team,Ducati,2,95.264,1,Dry,Hard,0,Long Lap Penalty,177.9,31.514,32.343,31.491
+2024,Qatar,Qatar,FP1,Francesco Bagnaia,Ducati Lenovo Team,Ducati,1,95.441,1,Dry,Soft,0,,169.31,31.56,32.602,31.472
+2024,Qatar,Qatar,FP1,Francesco Bagnaia,Ducati Lenovo Team,Ducati,3,95.237,1,Dry,Soft,0,,167.67,31.452,32.189,31.256
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+```
+
+Q: Which tyre compound is the best for Le Mans circuit?
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+
+
+Generate python code and return full updated code:
+2025-07-01 12:23:12 [INFO] Executing Step 2: CodeGenerator
+2025-07-01 12:23:14 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-01 12:23:14 [INFO] Code generated:
+            ```
+            # TODO: import the required dependencies
+import pandas as pd
+
+# Concatenate all dataframes in the list
+df = pd.concat(dfs)
+
+# Group by tyre compound and calculate the average position
+tyre_avg_position = df.groupby('tyre')['position'].mean().sort_values()
+
+# Find the best tyre compound based on the lowest average position
+best_tyre = tyre_avg_position.idxmin()
+
+# Prepare the result
+result = {"type": "string", "value": f"The best tyre compound for Le Mans circuit is {best_tyre}."}
+            ```
+            
+2025-07-01 12:23:14 [INFO] Executing Step 3: CachePopulation
+2025-07-01 12:23:14 [INFO] Executing Step 4: CodeExecution
+2025-07-01 12:23:14 [INFO] Saving charts to C:\Users\prajw\PortfolioProjects\motogp_AI_strategist\exports\charts\temp_chart.png
+2025-07-01 12:23:14 [INFO] 
+Code running:
+```
+df = pd.concat(dfs)
+tyre_avg_position = df.groupby('tyre')['position'].mean().sort_values()
+best_tyre = tyre_avg_position.idxmin()
+result = {'type': 'string', 'value': f'The best tyre compound for Le Mans circuit is {best_tyre}.'}
+        ```
+2025-07-01 12:23:14 [INFO] Executing Step 5: ResultValidation
+2025-07-01 12:23:14 [INFO] Answer: {'type': 'string', 'value': 'The best tyre compound for Le Mans circuit is Soft.'}
+2025-07-01 12:23:14 [INFO] Executed in: 2.716063976287842s
+2025-07-01 12:23:14 [INFO] Executing Step 6: ResultParsing

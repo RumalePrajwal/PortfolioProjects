@@ -73,6 +73,21 @@ You can ask natural language strategy queries like:
 
 ---
 
+## 🔍 Project Screenshots
+
+### 🏁 1. Strategy Dashboard Overview
+
+![Initial Dashboard](images/dashboard.png)
+
+### 🔧 3. Visual Analytics: Tyres, Pit Stops & Sector Times
+
+![Insights](images/visualization.png)
+
+### 💡 2. AI Strategy Agent in Action
+
+![AI analyzing](images/Performance.png)
+
+
 ## 🧠 Technologies Used
 
 - [Streamlit](https://streamlit.io/) — interactive dashboards
