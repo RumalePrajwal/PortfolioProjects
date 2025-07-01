@@ -1,0 +1,20 @@
+# Ignore Python cache and environment files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Ignore environment file
+.env
+
+# Ignore parquet and dataset files (optional)
+*.parquet
+*.csv
+
+# Ignore IDE/editor folders
+.vscode/
+.idea/
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
